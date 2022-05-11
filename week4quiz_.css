@@ -1,0 +1,18 @@
+h1{
+    color: orange;
+}
+
+img{
+    width: 350px;
+    padding: 15px;
+    float:right;
+}
+section{
+    background-color: lightgrey;
+    border:solid 2px black;
+    color: purple;
+    margin: 50px;
+}
+p{
+    color: purple;
+}

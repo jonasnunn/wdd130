@@ -18,6 +18,7 @@ header{
 }
 
 nav a{
+    text-decoration: none;
     text-align: center;
     color: #dad7cd;
     padding: 35px;
@@ -43,6 +44,7 @@ h4{
     color: #dad7cd;
     font-family: "Lato";
     font-size: 2em;
+    margin-top: 10px;
 }
 
 .book{
@@ -51,6 +53,8 @@ h4{
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join{
@@ -59,6 +63,8 @@ h4{
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover{
@@ -95,6 +101,7 @@ h4{
 footer{
     background-color: #a3b18a;
     padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer h3{
@@ -138,4 +145,24 @@ main section{
 
 #logo_link{
     padding-top: 5px;
+}
+
+.rivers-card{
+    margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black
+}
+
+main section img{
+    box-sizing: border-box;
 }

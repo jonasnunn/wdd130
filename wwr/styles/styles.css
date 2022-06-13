@@ -236,6 +236,64 @@ main section img{
     box-sizing: border-box;
 }
 
+
+/* Start of Rates and Dates Page css */
+#rate-main{
+    background-color: #6f7364;
+    display: grid;
+    grid-template-columns: 2fr 5fr 1.5fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#rate-main h1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 2.5em;
+}
+
+#rate-main h2{
+    grid-column: 2/3;
+}
+
+#rate-main p{
+    grid-column: 2/3;
+}
+
+.left-img{
+    grid-column: 1/2;
+    width: 100%;
+}
+
+#tr{
+    grid-column: 3/4;
+    width: 90%;
+    padding-right: 25px;
+}
+
+
+
+#gc-img{
+    grid-row: 2/4;
+}
+
+#sn-img{
+    grid-row: 5/6;
+}
+#des-img{
+    grid-row: 7/9;
+}
+#bot-img{
+    width: 100%;
+    margin: 0auto;
+    grid-column: 1/4;
+    grid-row: 9/10
+}
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;

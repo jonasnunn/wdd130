@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+    margin:0 auto;
+}
+#sectionone{
+    margin: 0 auto;
+    background-color: white;
+    width: 350px;
+    border-radius: 25px;
+    height: 100%;
+}
+img{
+    margin: 0 auto;
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+sub{
+    vertical-align: super;
+}
+
+.text{
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 1.3em;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+#weeks{
+    font-size: .9em;
+    color: #3F5B8B;
+    margin-top: 30px;
+    text-align: center;
+}
+
+h1{
+    font-size: 2em;
+    margin-top: -10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#sectiontwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #3F5B8B;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: white;
+    text-align: center;
+}
+#sub{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-bottom: 0;
+    font-size: 1.5em;
+}
+#read{
+    grid-column: 1/2;
+    margin-top: 0;
+}
+#viewsnumber{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-bottom: 0;
+    font-size: 1.5em;
+}
+#views{
+    grid-column: 2/3;
+    margin-top: 0;
+}
+#f{
+    grid-column: 3/3;
+    grid-row: 1/2;
+    margin-bottom: 0;
+    font-size: 1.5em;
+}
+#comments{
+    grid-column: 3/3;
+    margin-top: 0;
+    padding-bottom: 10px;
+}

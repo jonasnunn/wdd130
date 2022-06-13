@@ -51,26 +51,31 @@ h1{
     border-bottom-right-radius: 25px;
     color: white;
     text-align: center;
+    
 }
 #sub{
     grid-column: 1/2;
     grid-row: 1/2;
     margin-bottom: 0;
     font-size: 1.5em;
+    border-right: solid;
 }
 #read{
     grid-column: 1/2;
     margin-top: 0;
+    border-right: solid;
 }
 #viewsnumber{
     grid-column: 2/3;
     grid-row: 1/2;
     margin-bottom: 0;
     font-size: 1.5em;
+    border-right: solid;
 }
 #views{
     grid-column: 2/3;
     margin-top: 0;
+    border-right: solid;
 }
 #f{
     grid-column: 3/3;

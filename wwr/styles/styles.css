@@ -28,6 +28,7 @@ nav a{
     text-align: center;
     color: #dad7cd;
     padding: 35px;
+    margin-left: 100px;
 }
 
 nav a:hover{
@@ -160,6 +161,10 @@ footer .social img{
     color: white;
 }
 
+#hero-img {
+    width: 100%;
+}
+
 .button-box {
     text-align: center;
 }
@@ -181,6 +186,7 @@ main{
 }
 
 #logo_link{
+    width: 80px;
     padding-top: 5px;
     justify-self: center;
     align-self: center;

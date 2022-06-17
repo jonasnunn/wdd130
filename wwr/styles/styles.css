@@ -277,8 +277,21 @@ main section img{
 #rate-main p{
     grid-column: 2/3;
 }
+#gc-div{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#sr-div{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+#des-div{
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
 
-#h2-gc{
+
+/* #h2-gc{
     grid-row: 2/3;
 }
 #p1{
@@ -299,7 +312,7 @@ main section img{
 #p4{
     grid-row: 4/5;
     line-height: 1.5em;
-}
+} */
 
 .left-img{
     grid-column: 1/2;
